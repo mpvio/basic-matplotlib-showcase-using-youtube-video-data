@@ -1,0 +1,65 @@
+{
+  "id": "VIDEO_ID",
+  "snippet": {
+    "publishedAt": "2025-08-29T11:51:06Z",
+    "title": "VIDEO NAME",
+    "description": "",
+    "channelTitle": "",
+    "tags": null
+  },
+  "statistics": [
+    {
+      "time": "2025-08-29T12:36:31Z",
+      "viewCount": "0",
+      "favoriteCount": "0",
+      "commentCount": "556",
+      "likeCount": "6474",
+      "dislikeCount": "7"
+    },
+    {
+      "time": "2025-08-29T12:42:32Z",
+      "viewCount": "0",
+      "favoriteCount": "0",
+      "commentCount": "610",
+      "likeCount": "7532",
+      "dislikeCount": "10"
+    },
+    {
+      "time": "2025-08-29T12:46:35Z",
+      "viewCount": "0",
+      "favoriteCount": "0",
+      "commentCount": "663",
+      "likeCount": "8573",
+      "dislikeCount": "14"
+    },
+    {
+      "time": "2025-08-29T12:52:33Z",
+      "viewCount": "16848",
+      "favoriteCount": "0",
+      "commentCount": "895",
+      "likeCount": "13456",
+      "dislikeCount": "18"
+    },
+    {
+      "time": "2025-08-29T15:00:45Z",
+      "viewCount": "462106",
+      "favoriteCount": "0",
+      "commentCount": "4444",
+      "likeCount": "48984",
+      "dislikeCount": "1390"
+    }
+  ],
+  "changes": [
+    {
+      "time": "2025-08-29T12:52:33Z",
+      "published_at": {
+        "old": "2025-08-29T09:37:55Z",
+        "new": "2025-08-29T11:51:06Z"
+      },
+      "title": null,
+      "description": null,
+      "channel_title": null,
+      "tags": null
+    }
+  ]
+}
