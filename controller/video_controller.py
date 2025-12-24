@@ -25,8 +25,17 @@ def read_json_to_video() -> Video:
         
     return video
 
-def get_view_axes(video: Video) -> tuple[list, list]:
+def get_N_axes(video: Video, N: str) -> tuple[list, list]:
     times = [time.strftime("%Y-%m-%dT%H:%M:%SZ", stat.time) for stat in video.statistics]
-    view_counts = [stat.view_count for stat in video.statistics]
-    for t in times: print(t)
-    return times, view_counts
+    counts = []
+    if N == "view":
+        counts = [stat.view_count for stat in video.statistics]
+    elif N == "like":
+        counts = [stat.like_count for stat in video.statistics]
+    elif N == "comment":
+        counts = [stat.comment_count for stat in video.statistics]
+    elif N == "favorite":
+        counts = [stat.favorite_count for stat in video.statistics]
+    elif N == "dislike":
+        counts = [stat.dislike_count for stat in video.statistics]
+    return times, counts
